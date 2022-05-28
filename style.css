@@ -1,0 +1,323 @@
+/* fuente de google */
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+/* fin de fuente */
+
+/* position*/
+
+.positiontop {
+    position: fixed;
+    top: 0px;
+
+}
+/* position */
+
+/* GRID */
+
+.parent {
+    display: grid;
+    grid-template-rows: 630px 630px;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid black;
+    gap: 10px;
+    }
+    .imagen-grid {
+        border: 3px solid black;
+    }
+    .imagengaleria1 {
+        width: 100%;
+        height: 100%;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+/* FIN DE GRID */
+
+/* estilos al index */
+
+/* uso de flex */
+* {
+    margin: 0;
+    padding: 0;
+}
+.borderlinks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.imagenlogo{
+    display: flex;
+    justify-content: flex-start;
+}
+.flexparrafo {
+    display: flex;
+    vertical-align: top;
+    margin: 60px;
+    padding: 15px;
+}
+.imagennosotros {
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin: 60px;
+    padding: 15px;
+
+}
+.color1asesoria {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.color2cursosonline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.color3membresia {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    
+    
+}
+
+.tituloasesoria {
+    display: flex;
+    justify-content: center;
+}
+
+.h2empresas {
+    display: flex;
+    justify-content: center;
+}
+.h2pymes {
+    display: flex;
+    justify-content: center;
+}
+.h2marca {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* fin de flex */
+
+
+/* Estilo index */
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.imagenlogo {width: 100%; height: 400px;}
+.imagenasesoria { width: 100%;}
+.imagencurso { width: 100%;}
+.imagenmembresia { width: 100%;}
+.imagennosotros { width: 50%;}
+
+.borderlinks {
+    border: 3px solid black;
+    background-color: aquamarine;
+}
+
+
+p{
+    padding: 35px;
+    color: rgb(32, 13, 51);
+    font-size: 19px;
+}
+.color1asesoria {
+    border: 2px solid black;
+    background-color: rgba(53, 116, 95, 0.37);
+    
+}
+.color2cursosonline {
+    border: 2px solid black;
+    background-color: rgba(146, 86, 86, 0.555);
+    
+}
+.color3membresia {
+    border: 2px solid black;
+    background-color: rgba(206, 209, 16, 0.486);
+    
+}
+/* imagen de fondo */
+body {  /* la imagen no es la difinitiva por que no es adaptable con los colores,se cambiara en un futuro   */
+    background-image: url(
+        'Diseño\ sin\ título.png'
+    ) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.colorredes{
+    border: 2px solid black;
+    background-color: rgba(128, 112, 89, 0.425);
+}
+
+a{text-decoration: none;
+    color: rgba(77, 77, 17, 0.884);
+    font-size: 26px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+.nosotros1 {
+    border: 3px solid black;
+    background-color: rgba(99, 141, 48, 0.397);
+}
+
+
+/* final al estilo de index */
+
+/* estilo de asesoria */
+.bodyasesoria {
+    background-image: url(
+        'imagen\ fondo.webp'
+    );
+}
+.tituloasesoria {
+    background-color:rgba(8, 139, 96, 0.37) ;
+    margin: 40px;
+    padding: 40px;
+}
+.imagenasesoriae {
+    width: 100%;
+}
+.h2empresas {
+    color: rgb(26, 105, 77);
+    background-color: rgba(122, 211, 87, 0.349);
+}
+.h2pymes {
+    color: rgb(83, 190, 155);
+    background-color: rgb(122, 118, 118);
+}
+.h2marca {
+    color: rgb(40, 148, 148);
+    background-color: rgb(182, 159, 131);
+}
+.parrafoasesoria {
+    color: rgb(9, 146, 94);
+}
+
+/* fin de asesoria */
+
+/* inicio de contactame */
+
+.titulocontactame {
+    color: rgb(99, 126, 95);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(94, 91, 91);
+    margin: 40px;
+    padding: 40px;
+}
+
+.ubicacion {
+    background-color: rgb(82, 156, 131);
+    display: flex;
+    justify-content: center;
+}
+.whats {
+    background-color: rgb(98, 165, 165);
+    display: flex;
+    justify-content: center;
+}
+
+/* fin de contactame */
+
+/* inicio de sobremi */
+
+.bodysobremi {
+  background-image: url('fondosobremi.webp');  
+}
+.titulosobremi {
+    color: rgba(54, 201, 152, 0.733);
+    background-color: rgba(85, 78, 69, 0.575);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+}
+.h2comocomence {
+    background-color: rgba(79, 79, 196, 0.521);
+    display: flex;
+    justify-content: center;
+}
+.h2motivaciones {
+    background-color: rgba(106, 48, 161, 0.521);
+    display: flex;
+    justify-content: center;
+}
+.imagensobremi {
+    width: 100%;
+}
+/* fin de sobre mi */
+
+/* inicio de tienda */
+ .titulotienda {
+     color: rgb(66, 48, 25);
+     background-color: rgba(179, 139, 91, 0.767);
+     display: flex;
+     justify-content: center;
+     padding: 40px;
+     margin: 40px;
+ }
+ .h2cursos {
+     color: rgba(53, 18, 70, 0.705);
+     background-color: rgba(23, 125, 156, 0.644);
+     padding: 20px;
+     margin-top: 10px;
+     
+ }
+ .h2membresia {
+     color: rgba(12, 58, 58, 0.726);
+     background-color: rgba(51, 46, 40, 0.39);
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     margin-bottom: 20px;
+    
+ }
+ .h3basico {
+     color: rgb(146, 107, 60);
+     margin-left: 10px;
+     
+ }
+ .h3medio {
+     color: rgb(49, 124, 124);
+     margin-left: 10px;
+ }
+ .h3premium {
+     color: rgba(182, 58, 58, 0.699);
+     margin-left: 10px;
+ }
+
+
+ /* fin de tienda */
+
+ /* footer */
+h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+ /* fin de footer */
