@@ -44,6 +44,30 @@
 
 /* FIN DE GRID */
 
+
+/* Animaciones */
+
+.box {
+    transition-property: all;
+    transition-duration: 2s ;
+
+}
+.box:hover {
+    transform: scale(2);
+}
+
+.box2
+
+
+
+
+
+
+
+/* fin de animaciones */
+
+
+
 /* estilos al index */
 
 /* uso de flex */
@@ -251,7 +275,7 @@ a{text-decoration: none;
   background-image: url('fondosobremi.webp');  
 }
 .titulosobremi {
-    color: rgba(54, 201, 152, 0.733);
+    color: rgba(54, 201, 152, 0.705);
     background-color: rgba(85, 78, 69, 0.575);
     display: flex;
     justify-content: center;
