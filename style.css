@@ -56,7 +56,14 @@
     transform: scale(2);
 }
 
-.box2
+.box2 {
+    transition-property: all;
+    transition-duration: 2s ;
+
+}
+.box2:hover {
+    transform: scale(2);
+}
 
 
 
