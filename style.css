@@ -45,9 +45,36 @@
 /* FIN DE GRID */
 
 
+
+/* media */
+@media (min-width:600px){
+    .containerBs{
+        display: flex;
+    }
+    
+}
+
+
+@media screen and (min-width:500px) {
+    body{
+        background-color: #D8E6E3;
+    }
+    
+}
+
+
+    
+
+
+
+
+
+/* fin media */
+
+
 /* Animaciones */
 
-.box {
+.box{
     transition-property: all;
     transition-duration: 2s ;
 
@@ -65,11 +92,14 @@
     transform: scale(2);
 }
 
+.animaciontitulos {
+    transition-property: all;
+    transition-duration: 2s;
+}
 
-
-
-
-
+.animaciontitulos :hover {
+    transform: scale(2);
+}
 
 /* fin de animaciones */
 
@@ -77,8 +107,9 @@
 
 /* estilos al index */
 
+
 /* uso de flex */
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -160,8 +191,21 @@
 
 
 /* Estilo index */
+
+.linkdisplay {
+    display: none;
+}
+
+
+
+
+
 h1 {
     font-family: 'Barlow Condensed', sans-serif;
+}
+
+.imagenlogo{
+    padding: 20px;
 }
 
 
@@ -282,6 +326,11 @@ a{text-decoration: none;
 
 /* inicio de sobremi */
 
+.carousel{
+    padding: 15px;
+    width: 100%;
+}
+
 .bodysobremi {
   background-image: url('fondosobremi.webp');  
 }
@@ -309,6 +358,13 @@ a{text-decoration: none;
 /* fin de sobre mi */
 
 /* inicio de tienda */
+.imagen-logo {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+
  .titulotienda {
      color: rgb(66, 48, 25);
      background-color: rgba(179, 139, 91, 0.767);
