@@ -1,0 +1,75 @@
+@import "colores";
+@import'mixin';
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+
+
+.bodyasesoria {
+    background-image:$color-fondo ;}
+.tituloasesoria {
+    background-color:$color-destacar ;
+    margin: 40px;
+    padding: 40px;
+}
+.imagenasesoriae {
+    width: 100%;
+}
+
+
+/*se agrego mixin */
+
+
+.h2empresas {
+    @include propiedades ($color-destacar,$color-links)
+   
+}
+.h2pymes {
+    @include propiedades ($color-destacar,$color-links)
+}
+.h2marca {
+    @include propiedades ($color-destacar,$color-links)
+}
+
+/*fin mixin*/
+
+
+.parrafoasesoria {
+    color: black;
+}
+
+/*uso de flex */
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.tituloasesoria {
+    display: flex;
+    justify-content: center;
+}
+
+
+.h2empresas {
+    display: flex;
+    justify-content: center;
+}
+.h2pymes {
+    display: flex;
+    justify-content: center;
+}
+.h2marca {
+    display: flex;
+    justify-content: center;
+}
+
+.colorcarruselmi {
+    color: rgb(27, 117, 87);
+}
+
+
+/* media */

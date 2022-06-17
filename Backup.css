@@ -46,21 +46,7 @@
 
 
 
-/* media */
-@media (min-width:600px){
-    .containerBs{
-        display: flex;
-    }
-    
-}
 
-
-@media screen and (min-width:500px) {
-    body{
-        background-color: #D8E6E3;
-    }
-    
-}
 
 
     
@@ -242,7 +228,7 @@ p{
     
 }
 /* imagen de fondo */
-body {  /* la imagen no es la difinitiva por que no es adaptable con los colores,se cambiara en un futuro   */
+body {  
     background-image: url(
         'Diseño\ sin\ título.png'
     ) ;

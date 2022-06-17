@@ -1,0 +1,45 @@
+.imagen-logo {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+
+ .titulotienda {
+     color: $color-destacar;
+     background-color: $color-links;
+     display: flex;
+     justify-content: center;
+     padding: 40px;
+     margin: 40px;
+ }
+ .h2cursos {
+     color: $color-destacar;
+     background-color:  $color-links;
+     padding: 20px;
+     margin-top: 10px;
+     
+ }
+ .h2membresia {
+     color: $color-destacar;
+     background-color: $color-links;
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     margin-bottom: 20px;
+    
+ }
+ .h3basico {
+     color:$color-titulo;
+     margin-left: 10px;
+     
+ }
+ .h3medio {
+     color: $color-titulo;
+     margin-left: 10px;
+ }
+ .h3premium {
+     color: $color-titulo;
+     margin-left: 10px;
+ }
+

@@ -1,14 +1,15 @@
 @import 'index';
+@import 'tiendadigital';
+@import 'asesoria';
+@import 'sobremi';
 @import 'colores';
 @import'medidas';
+@import'extends';
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
-
-.borderlinks {
-    border: 3px solid black;
-    background-color:$color-backgraun;
-    p{
-        padding: 35px;
-        color: black;
-        font-size: 19px;
-    }
+.disclaimer {
+    display: none;
 }
+
