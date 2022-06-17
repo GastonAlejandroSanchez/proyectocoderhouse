@@ -1,3 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+.bodyasesoria {
+  background-image: #FFF8F5; }
+
+.tituloasesoria {
+  background-color: #D8E6E3;
+  margin: 40px;
+  padding: 40px; }
+
+.imagenasesoriae {
+  width: 100%; }
+
+/*se agrego mixin */
+.h2empresas {
+  color: #D8E6E3;
+  background-color: #8A9E9B; }
+
+.h2pymes {
+  color: #D8E6E3;
+  background-color: #8A9E9B; }
+
+.h2marca {
+  color: #D8E6E3;
+  background-color: #8A9E9B; }
+
+/*fin mixin*/
+.parrafoasesoria {
+  color: black; }
+
+/*uso de flex */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto; }
+
+.tituloasesoria {
+  display: flex;
+  justify-content: center; }
+
+.h2empresas {
+  display: flex;
+  justify-content: center; }
+
+.h2pymes {
+  display: flex;
+  justify-content: center; }
+
+.h2marca {
+  display: flex;
+  justify-content: center; }
+
+.colorcarruselmi {
+  color: #1b7557; }
+
+/* media */
+* .color1asesoria, * .color2cursosonline, * .color3membresia {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid black;
+  background-color: #f0eae8; }
+
 .borderlinks {
   border: 3px solid black;
   background-color: #E6DCD8; }
@@ -5,3 +77,234 @@
     padding: 35px;
     color: black;
     font-size: 19px; }
+  .borderlinks h1 {
+    font-family: 'Barlow Condensed', sans-serif; }
+  .borderlinks .imagenlogo {
+    padding: 20px; }
+  .borderlinks h3 {
+    font-family: 'Barlow Condensed', sans-serif; }
+
+/*mixins*/
+.imagenlogo {
+  width: 100%;
+  height: 400px; }
+
+.imagenasesoria {
+  width: 100%; }
+
+.imagencurso {
+  width: 100%; }
+
+.imagenmembresia {
+  width: 100%; }
+
+.imagennosotros {
+  width: 100%; }
+
+/*fin mixin*/
+body {
+  background-color: #FFF8F5;
+  background-size: cover;
+  background-attachment: fixed; }
+  body .colorredes {
+    border: 2px solid black;
+    background-color: #637875; }
+  body a {
+    text-decoration: none;
+    color: #8A9E9B;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif; }
+
+.nosotros1 {
+  border: 3px solid black;
+  background-color: #8A9E9B; }
+
+.box {
+  transition-property: all;
+  transition-duration: 2s; }
+
+.box:hover {
+  transform: scale(2); }
+
+.box2 {
+  transition-property: all;
+  transition-duration: 2s; }
+
+.box2:hover {
+  transform: scale(2); }
+
+.animaciontitulos {
+  transition-property: all;
+  transition-duration: 2s; }
+
+.animaciontitulos :hover {
+  transform: scale(2); }
+
+/* media */
+@media (min-width: 600px) {
+  .containerBs {
+    display: flex; } }
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: #D8E6E3; } }
+
+/* final al estilo de index */
+/* estilo de asesoria */
+.bodyasesoria {
+  background-image: url("imagen fondo.webp"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  /*se agrego extends*/ }
+  * .borderlinks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; }
+  * .imagenlogo {
+    display: flex;
+    justify-content: flex-start; }
+  * .flexparrafo {
+    display: flex;
+    vertical-align: top;
+    margin: 60px;
+    padding: 15px; }
+  * .imagennosotros {
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin: 60px;
+    padding: 15px; }
+
+.imagen-logo {
+  padding: 15px;
+  margin-top: 15px; }
+
+.titulotienda {
+  color: #D8E6E3;
+  background-color: #8A9E9B;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: 40px; }
+
+.h2cursos {
+  color: #D8E6E3;
+  background-color: #8A9E9B;
+  padding: 20px;
+  margin-top: 10px; }
+
+.h2membresia {
+  color: #D8E6E3;
+  background-color: #8A9E9B;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 20px; }
+
+.h3basico {
+  color: #998881;
+  margin-left: 10px; }
+
+.h3medio {
+  color: #998881;
+  margin-left: 10px; }
+
+.h3premium {
+  color: #998881;
+  margin-left: 10px; }
+
+.bodyasesoria {
+  background-image: #FFF8F5; }
+
+.tituloasesoria {
+  background-color: #D8E6E3;
+  margin: 40px;
+  padding: 40px; }
+
+.imagenasesoriae {
+  width: 100%; }
+
+/*se agrego mixin */
+.h2empresas {
+  color: #D8E6E3;
+  background-color: #8A9E9B; }
+
+.h2pymes {
+  color: #D8E6E3;
+  background-color: #8A9E9B; }
+
+.h2marca {
+  color: #D8E6E3;
+  background-color: #8A9E9B; }
+
+/*fin mixin*/
+.parrafoasesoria {
+  color: black; }
+
+/*uso de flex */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto; }
+
+.tituloasesoria {
+  display: flex;
+  justify-content: center; }
+
+.h2empresas {
+  display: flex;
+  justify-content: center; }
+
+.h2pymes {
+  display: flex;
+  justify-content: center; }
+
+.h2marca {
+  display: flex;
+  justify-content: center; }
+
+.colorcarruselmi {
+  color: #1b7557; }
+
+/* media */
+.carousel {
+  padding: 15px;
+  width: 100%; }
+
+.bodysobremi {
+  background-image: #FFF8F5; }
+
+.titulosobremi {
+  color: #D8E6E3;
+  background-color: #8A9E9B;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: 40px; }
+
+.h2comocomence {
+  background-color: #8A9E9B;
+  display: flex;
+  justify-content: center; }
+
+.h2motivaciones {
+  background-color: #8A9E9B;
+  display: flex;
+  justify-content: center; }
+
+.imagensobremi {
+  width: 100%; }
+
+* .color1asesoria, * .color2cursosonline, * .color3membresia {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid black;
+  background-color: #f0eae8; }
+
+.disclaimer {
+  display: none; }

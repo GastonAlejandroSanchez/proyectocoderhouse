@@ -1,0 +1,10 @@
+@mixin propiedades ($color,$background){
+    color: $color;
+    background-color: $background;
+    
+}
+
+@mixin dimensiones ($porcentaje){
+    width:$porcentaje;
+
+}

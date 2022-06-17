@@ -1,2 +1,156 @@
 @import 'colores';
+@import "asesoria";
+@import'extends';
+@import'mixin';
+
+.borderlinks {
+    border: 3px solid black;
+    background-color:$color-backgraun;
+    p{
+        padding: 35px;
+        color: black;
+        font-size: 19px;
+    }
+    h1 {
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    
+    .imagenlogo{
+        padding: 20px;
+    }
+    h3 {
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+}
+    /*mixins*/
+    
+    .imagenlogo {@include dimensiones(100%); height: 400px;}
+    .imagenasesoria { @include dimensiones(100%);}
+    .imagencurso { @include dimensiones(100%);}
+    .imagenmembresia { @include dimensiones(100%);}
+    .imagennosotros { @include dimensiones(100%);}
+
+/*fin mixin*/
+body {  
+    background-color: $color-fondo
+     ;
+    background-size: cover;
+    background-attachment: fixed;
+
+.colorredes{
+    border: 2px solid black;
+    background-color: darken($color-links, 15%);
+}
+
+
+a{text-decoration: none;
+    color: $color-links;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+}
+.nosotros1 {
+    border: 3px solid black;
+    background-color: $color-links;
+}
+
+
+.box{
+    transition-property: all;
+    transition-duration: 2s ;
+}
+.box:hover {
+    transform: scale(2);
+}
+
+.box2 {
+    transition-property: all;
+    transition-duration: 2s ;
+
+}
+.box2:hover {
+    transform: scale(2);
+}
+
+.animaciontitulos {
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.animaciontitulos :hover {
+    transform: scale(2);
+}
+
+/* media */
+@media (min-width:600px){
+    .containerBs{
+        display: flex;
+    }
+    
+}
+
+
+@media screen and (min-width:500px) {
+    body{
+        background-color: #D8E6E3;
+    }
+    
+}
+
+
+/* final al estilo de index */
+
+/* estilo de asesoria */
+.bodyasesoria {
+    background-image: url(
+        'imagen\ fondo.webp'
+    
+    );
+}
+*{
+    margin: 0;
+    padding: 0;
+
+.borderlinks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+.imagenlogo{
+    display: flex;
+    justify-content: flex-start;
+}
+.flexparrafo {
+    display: flex;
+    vertical-align: top;
+    margin: 60px;
+    padding: 15px;
+}
+.imagennosotros {
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin: 60px;
+    padding: 15px;
+
+}
+
+/*se agrego extends*/
+
+
+.color1asesoria {
+    @extend %titulos
+}
+.color2cursosonline {
+    @extend %titulos
+    
+}
+.color3membresia {
+    @extend %titulos
+
+}
+}
 

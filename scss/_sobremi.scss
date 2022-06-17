@@ -1,0 +1,29 @@
+.carousel{
+    padding: 15px;
+    width: 100%;}
+
+
+.bodysobremi {
+  background-image: $color-fondo;  
+}
+.titulosobremi {
+    color: $color-destacar;
+    background-color: $color-links;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+}
+.h2comocomence {
+    background-color: $color-links;
+    display: flex;
+    justify-content: center;
+}
+.h2motivaciones {
+    background-color: $color-links;
+    display: flex;
+    justify-content: center;
+}
+.imagensobremi {
+    width: 100%;
+}
