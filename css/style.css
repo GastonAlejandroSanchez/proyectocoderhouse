@@ -80,7 +80,8 @@
   .borderlinks h1 {
     font-family: 'Barlow Condensed', sans-serif; }
   .borderlinks .imagenlogo {
-    padding: 20px; }
+    padding: 20px;
+    width: 100%; }
   .borderlinks h3 {
     font-family: 'Barlow Condensed', sans-serif; }
 
