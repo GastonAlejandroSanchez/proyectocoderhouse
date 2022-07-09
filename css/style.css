@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat:wght@300;400;700&display=swap");
 .bodyasesoria {
   background-image: #FFF8F5; }
 
@@ -117,7 +121,9 @@ body {
 
 .nosotros1 {
   border: 3px solid black;
-  background-color: #8A9E9B; }
+  background-color: #8A9E9B;
+  display: flex;
+  justify-content: center; }
 
 .box {
   transition-property: all;
@@ -164,7 +170,8 @@ body {
     width: 100%; }
   * .imagenlogo {
     display: flex;
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    margin: 0px; }
   * .flexparrafo {
     display: flex;
     vertical-align: top;
@@ -174,12 +181,62 @@ body {
     display: flex;
     float: left;
     justify-content: center;
-    margin: 60px;
-    padding: 15px; }
+    margin: 0px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 3xp 5px rgba(15, 15, 15, 0.5); }
 
-@media screen {
-  .imagenindex {
-    max-width: 350px; } }
+.imagenmembresia .imagenasesoria .imagencurso {
+  border-radius: 15px;
+  box-shadow: 0px 3xp 5px rgba(15, 15, 15, 0.5); }
+
+/* estilo en la seccion de nosotros en el index */
+/*estilo al formulario del index */
+.bodyform {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  font-family: 'Montserrat', sans-serif; }
+
+.form {
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em; }
+  .form .forminput {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em; }
+  .form .formcta {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #089fe0;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400; }
+
+.formcontainer {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%; }
+  .formcontainer .formtitle {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em; }
+
+@media (max-width: 450px) {
+  .form {
+    padding: 3.5em 1em; } }
+
+.fotter {
+  margin: 1rem; }
 
 .imagen-logo {
   padding: 15px;
